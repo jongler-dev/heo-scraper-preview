@@ -1,7 +1,7 @@
 {
   "name": "heo-scraper-preview",
   "version": "1.0.0",
-  "description": "A preview of the my full website scraper and a product tracker project.",
+  "description": "A preview of the my website scraper and a product tracker project.",
   "main": "app.js",
   "directories": {
     "lib": "lib"
