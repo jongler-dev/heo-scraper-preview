@@ -15,6 +15,7 @@ This is indeed a preview of a bigger and more concise project, but it showcases 
 2. Environment variables support, using [dotenv-safe](https://www.npmjs.com/package/dotenv-safe).
 3. Usage of the browser's cookies for faster processing time in case running sequential calls, removing the need to re-login every time.
 4. Static code analysis with [eslint](https://www.npmjs.com/package/eslint).
+5. Automatically run git hooks (specifically pre-commit) using [husky](https://www.npmjs.com/package/husky).
 
 ## Usage
 
