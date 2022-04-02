@@ -5,6 +5,7 @@ const heo = require('./lib/scraper/heo.js');
 require('dotenv-safe').config();
 
 (async () => {
+  console.log('scraping in progress...');
   console.time('scrape item');
 
   const headless = true;
