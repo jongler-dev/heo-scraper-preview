@@ -1,8 +1,9 @@
 //
 // usage script example
 //
-const heo = require('./lib/scraper/heo.js');
-require('dotenv-safe').config();
+import 'dotenv/config';
+
+import { heo } from './lib/scraper/heo.js';
 
 (async () => {
   console.log('scraping in progress...');

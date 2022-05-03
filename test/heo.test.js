@@ -1,7 +1,7 @@
-const { expect } = require('chai');
-require('dotenv-safe').config();
+import 'dotenv/config';
+import { expect } from 'chai';
 
-const heo = require('../lib/scraper/heo');
+import { heo } from '../lib/scraper/heo.js';
 
 const TEST_TIMEOUT_MS = 1 * 60 * 1000;
 
