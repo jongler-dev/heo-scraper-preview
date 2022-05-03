@@ -128,7 +128,7 @@ describe('Heo tests - basic functionality', function () {
     expect(data.itemCode).to.equal(productId);
 
     // better to explicitly check every key in data object,
-    // as a for loop may not notice a missing or misspelled key
+    // as a for-loop may not notice a missing or misspelled key
     expect(data.title).to.be.a('string');
     expect(data.category).to.be.a('string');
     expect(data.producer).to.be.a('string');
@@ -140,7 +140,7 @@ describe('Heo tests - basic functionality', function () {
     expect(data.basePrice).to.be.a('string');
     expect(data.weight).to.be.a('string');
     expect(data.caseQuantity).to.be.a('string');
-    expect(data.gtin_ean).to.be.a('string');
+    expect(data.gtinEan).to.be.a('string');
     expect(data.packaging).to.be.a('string');
     expect(data.srp).to.be.a('string');
     expect(data.imagesUrl).to.be.a('string');
